@@ -5,7 +5,7 @@ from pathlib import Path
 from queue import Empty, Queue
 from typing import Any, Callable, Dict, Optional, Tuple
 
-import requests
+from .extras import requests
 from tqdm import tqdm
 from tqdm.utils import CallbackIOWrapper
 
